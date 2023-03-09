@@ -1,4 +1,5 @@
-import { Table } from "antd";
+import { Card, Col, Row, Table, Typography } from "antd";
+const { Title } = Typography;
 const columns = [
   {
     title: "Sl No",
@@ -72,8 +73,22 @@ const data = [
 const onChange = (pagination, filters, sorter, extra) => {
   console.log("params", pagination, filters, sorter, extra);
 };
-const RecentOrders = () => (
-  <Table columns={columns} dataSource={data} onChange={onChange} />
+const BlogList = () => (
+  <Row gutter={[16, 6]} className="mt-3">
+    <Col
+      xs={{
+        span: 24,
+      }}
+      lg={{
+        span: 24,
+      }}
+    >
+      <Title>Blog List</Title>
+      <Card>
+        <Table columns={columns} dataSource={data} onChange={onChange} />
+      </Card>
+    </Col>
+  </Row>
 );
 
-export default RecentOrders;
+export default BlogList;

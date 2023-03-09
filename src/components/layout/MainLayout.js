@@ -33,12 +33,12 @@ const items = [
     label: "Catalog",
     children: [
       {
-        key: "product",
+        key: "product-add",
         icon: <AiOutlineShoppingCart className="fs-4" />,
         label: "Add Product",
       },
       {
-        key: "list-product",
+        key: "product-list",
         icon: <AiOutlineShoppingCart className="fs-4" />,
         label: "Product List",
       },
@@ -48,7 +48,7 @@ const items = [
         label: "Brand",
       },
       {
-        key: "list-brand",
+        key: "brand-list",
         icon: <SiBrandfolder className="fs-4" />,
         label: "Brand List ",
       },
@@ -58,7 +58,7 @@ const items = [
         label: "Category",
       },
       {
-        key: "list-category",
+        key: "category-list",
         icon: <BiCategoryAlt className="fs-4" />,
         label: "Category List",
       },
@@ -68,7 +68,7 @@ const items = [
         label: "Color",
       },
       {
-        key: "list-color",
+        key: "color-list",
         icon: <AiOutlineBgColors className="fs-4" />,
         label: "Color List",
       },
