@@ -18,7 +18,7 @@ const { Header, Sider, Content } = Layout;
 
 const items = [
   {
-    key: "1",
+    key: "admin",
     icon: <AiOutlineDashboard className="fs-4" />,
     label: "Dashboard",
   },
@@ -38,7 +38,7 @@ const items = [
         label: "Add Product",
       },
       {
-        key: "product-list",
+        key: "products",
         icon: <AiOutlineShoppingCart className="fs-4" />,
         label: "Product List",
       },
@@ -48,7 +48,7 @@ const items = [
         label: "Brand",
       },
       {
-        key: "brand-list",
+        key: "brands",
         icon: <SiBrandfolder className="fs-4" />,
         label: "Brand List ",
       },
@@ -58,7 +58,7 @@ const items = [
         label: "Category",
       },
       {
-        key: "category-list",
+        key: "categories",
         icon: <BiCategoryAlt className="fs-4" />,
         label: "Category List",
       },
@@ -68,7 +68,7 @@ const items = [
         label: "Color",
       },
       {
-        key: "color-list",
+        key: "colors",
         icon: <AiOutlineBgColors className="fs-4" />,
         label: "Color List",
       },
@@ -85,12 +85,12 @@ const items = [
     label: "Marketing",
     children: [
       {
-        key: "coupon",
+        key: "add-oupon",
         icon: <ImBlog className="fs-4" />,
         label: "Add Coupon",
       },
       {
-        key: "coupon-list",
+        key: "coupons",
         icon: <RiCouponLine className="fs-4" />,
         label: "Coupon List",
       },
